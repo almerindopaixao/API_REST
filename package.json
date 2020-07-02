@@ -1,0 +1,40 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almerindopaixao/API_REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almerindopaixao/API_REST/issues"
+  },
+  "homepage": "https://github.com/almerindopaixao/API_REST#readme",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.1.0",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.4.0",
+    "multer": "^1.4.2",
+    "sequelize": "^6.2.3"
+  }
+}
