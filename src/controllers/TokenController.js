@@ -1,4 +1,5 @@
 import jwt from 'jsonwebtoken';
+
 import Usuario from '../models/Usuario';
 
 class TokenController {
